@@ -8,4 +8,4 @@ export const shareExtensionViewControllerFileName = "ShareViewController.swift";
 export const getAppGroups = (identifier: string) => [`group.${identifier}`];
 
 export const getShareExtensionBundledIdentifier = (appIdentifier: string) =>
-  `${appIdentifier}.share-extension`;
+  `${appIdentifier}.share`;
